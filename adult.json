@@ -64,14 +64,6 @@
     "priority": 1
   },
   {
-    "id": "zuida",
-    "name": "🎬最大资源",
-    "baseUrl": "https://api.zuidapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "wujin",
     "name": "🎬无尽资源",
     "baseUrl": "https://api.wujinapi.me/api.php/provide/vod",
@@ -192,6 +184,14 @@
     "priority": 1
   },
   {
+    "id": "doudou",
+    "name": "🔞豆豆资源",
+    "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "didi",
     "name": "🔞滴滴资源",
     "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
@@ -256,14 +256,6 @@
     "priority": 5
   },
   {
-    "id": "jinying",
-    "name": "🎬金鹰点播",
-    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "guangsu",
     "name": "🎬光速资源",
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
@@ -296,14 +288,6 @@
     "priority": 5
   },
   {
-    "id": "doudou",
-    "name": "🔞豆豆资源",
-    "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "xinlang",
     "name": "🎬新浪资源",
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
@@ -320,12 +304,30 @@
     "priority": 10
   },
   {
+    "id": "zuida",
+    "name": "🎬最大资源",
+    "baseUrl": "https://api.zuidapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "jinying",
+    "name": "🎬金鹰点播",
+    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "接口解析错误"
+  },
+  {
     "id": "danaizi",
     "name": "🔞-大奶子-",
     "baseUrl": "https://apidanaizi.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 105,
+    "priority": 106,
     "_comment": "搜索无结果"
   },
   {
@@ -334,7 +336,7 @@
     "baseUrl": "https://www.msnii.com/api/json.php",
     "group": "premium",
     "enabled": false,
-    "priority": 105,
+    "priority": 106,
     "_comment": "搜索无结果"
   },
   {
@@ -343,7 +345,7 @@
     "baseUrl": "https://www.kxgav.com/api/json.php",
     "group": "premium",
     "enabled": false,
-    "priority": 105,
+    "priority": 106,
     "_comment": "搜索无结果"
   },
   {
@@ -352,7 +354,7 @@
     "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 112,
+    "priority": 113,
     "_comment": "接口解析错误"
   },
   {
